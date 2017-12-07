@@ -1,0 +1,60 @@
+--import library
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity ALU is
+    port ( functionField : in std_logic_vector(5 downto 0);
+	   opcode: in std_logic_vector (5 downto 0);
+	   a_data : in std_logic_vector(31 downto 0);
+	   b_data : in std_logic_vector(31 downto 0);
+	   branchFlag: out std_logic;
+	   l_s_flag: out std_logic;
+	   zero : out std_logic_vector(31 downto 0); 
+	   alu_out : out std_logic_vector(31 downto 0)); --outputs
+end ALU;
+
+architecture behavior of ALU is
+begin
+  P1: process (opcode, functionField, a_data, b_data) is
+  begin
+   if opcode = "000000" then -- R-type instructions
+     case functionField is 
+	when "100000" => --add
+	    alu_out <= std_logic_vector(unsigned(a_data) + unsigned(b_data));
+	when "100010" => -- sub
+	    alu_out <= std_logic_vector(unsigned(a_data) - unsigned(b_data));
+	when "100100" => --and
+	    alu_out <= (a_data AND b_data);
+	when "100101" => --or
+	    alu_out <= (a_data OR b_data);
+	when "101010" => --slt
+	    if (a_data < b_data) then
+		alu_out <= x"00000001";
+	    elsif (a_data > b_data) then
+		alu_out <= x"00000000";
+	    end if;
+	when "100111" => -- nor
+	    alu_out <= (a_data NOR b_data);
+	when others =>
+	    alu_out <= x"00000000";	
+       end case;
+    elsif opcode(5 downto 4) = "00" then --I-type instructions
+	alu_out <= std_logic_vector (unsigned(a_data) + unsigned(b_data));
+	if opcode(3 downto 2) = "01" then 
+	branchFlag <= '1';
+	else 
+	branchFlag <= '0';
+	end if;
+    elsif opcode (5 downto 4) = "01" then -- lw and sw
+	alu_out <= std_logic_vector (unsigned(a_data) + unsigned(b_data));
+	if opcode (3 downto 2) = "00" then --load
+	    l_s_flag := '1';
+	else opcode (3 downto 2) = "10" then --store
+	    l_s_falg := '0';
+	end if;
+    else
+	alu_out <= x"ffffffff";
+    end if;
+  end process P1; 
+end architecture behavior;
