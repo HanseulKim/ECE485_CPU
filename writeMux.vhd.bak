@@ -13,6 +13,6 @@ end writeMux;
 
 architecture behavior of writeMux is 
  begin
-  output <= rd when (r_flag = '1') -- R-instruction
+  output <= rd when (r_flag = '1') --load
 	else rt;
 end architecture behavior;

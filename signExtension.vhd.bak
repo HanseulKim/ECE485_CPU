@@ -19,6 +19,7 @@ architecture behavior of signext is
     else
      output (31 downto 16) <= x"0000";
     end if;
-    output(15 downto 0) <= imm;  -- immediate instruction
+    output(15 downto 0) <= imm when opcode(5 downto 3) = "001"  -- immediate instruction
+			else x"ffff"; -- branch  
  end process P1;  			
 end architecture behavior;

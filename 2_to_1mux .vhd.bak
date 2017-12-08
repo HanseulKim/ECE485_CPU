@@ -14,5 +14,5 @@ end mux2_1;
 architecture behavior of mux2_1 is 
  begin
   output <= pc when opcode = "000010"	--jump instrcution takes pc as ALU sourceA
-	    else dataA; 
+	    else dataA 
 end architecture behavior;

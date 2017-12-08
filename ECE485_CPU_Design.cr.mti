@@ -1,0 +1,16 @@
+C:/Modeltech_pe_edu_10.4a/ECE485_Project/PC_Calc.vhd {0 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ECE485_Project/PC_Calc.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+** Error: (vcom-66) Execution of vlib failed. Please check the error log for more details.
+
+
+} {3.0 4.0} {}} C:/Modeltech_pe_edu_10.4a/ECE485_Project/ALU.vhd {0 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ECE485_Project/ALU.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+** Error: (vcom-66) Execution of vlib failed. Please check the error log for more details.
+
+
+} {3.0 4.0} {}} {C:/Modeltech_pe_edu_10.4a/ECE485_Project/2_to_1mux .vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Modeltech_pe_edu_10.4a/ECE485_Project/2_to_1mux .vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+** Error: (vcom-66) Execution of vlib failed. Please check the error log for more details.
+
+
+} {3.0 4.0} {}}

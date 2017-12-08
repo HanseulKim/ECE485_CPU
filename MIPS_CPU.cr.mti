@@ -1,0 +1,125 @@
+C:/Users/Hanseul/Desktop/ECE485_Project/registers.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Hanseul/Desktop/ECE485_Project/registers.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity reg
+-- Compiling architecture behavior of reg
+
+} {} {}} C:/Users/Hanseul/Desktop/ECE485_Project/testbench1.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Hanseul\Desktop\ECE485_Project\testbench1.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity testbench1
+-- Compiling architecture behavior of testbench1
+
+} {} {}} C:/Users/Hanseul/Desktop/ECE485_Project/InstrDecode.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Hanseul\Desktop\ECE485_Project\InstrDecode.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity instrDecode
+-- Compiling architecture behavior of instrDecode
+
+} {} {}} C:/Users/Hanseul/Desktop/ECE485_Project/signExtension.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Hanseul\Desktop\ECE485_Project\signExtension.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity signext
+-- Compiling architecture behavior of signext
+
+} {} {}} {C:/Users/Hanseul/Desktop/ECE485_Project/2_to_1mux .vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Hanseul/Desktop/ECE485_Project/2_to_1mux .vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux2_1
+-- Compiling architecture behavior of mux2_1
+
+} {} {}} C:/Users/Hanseul/Desktop/ECE485_Project/writeDataMux.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Hanseul/Desktop/ECE485_Project/writeDataMux.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity writeDataMux
+-- Compiling architecture behavior of writeDataMux
+
+} {} {}} C:/Users/Hanseul/Desktop/ECE485_Project/4_to_1mux.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Hanseul/Desktop/ECE485_Project/4_to_1mux.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mux4_1
+-- Compiling architecture behavior of mux4_1
+
+} {} {}} C:/Users/Hanseul/Desktop/ECE485_Project/dataMem.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Hanseul/Desktop/ECE485_Project/dataMem.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dataMem
+-- Compiling architecture behavior of dataMem
+
+} {} {}} C:/Users/Hanseul/Desktop/ECE485_Project/ALU.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Hanseul\Desktop\ECE485_Project\ALU.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ALU
+-- Compiling architecture behavior of ALU
+
+} {} {}} C:/Users/Hanseul/Desktop/ECE485_Project/writeMux.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Hanseul/Desktop/ECE485_Project/writeMux.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity writeMux
+-- Compiling architecture behavior of writeMux
+
+} {} {}} C:/Users/Hanseul/Desktop/ECE485_Project/PC_Calc.vhd {2 {vcom -work work -2002 -explicit -stats=none C:/Users/Hanseul/Desktop/ECE485_Project/PC_Calc.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity PC_Calc
+-- Compiling architecture behavior of PC_Calc
+** Warning: C:/Users/Hanseul/Desktop/ECE485_Project/PC_Calc.vhd(23): (vcom-1272) Length of expected is 32; length of actual is 26.
+
+
+} {} {}} C:/Users/Hanseul/Desktop/ECE485_Project/tb1_test.vhd {2 {vcom -work work -2002 -explicit -stats=none C:/Users/Hanseul/Desktop/ECE485_Project/tb1_test.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity testbench1
+-- Compiling architecture behavior of testbench1
+** Warning: C:/Users/Hanseul/Desktop/ECE485_Project/tb1_test.vhd(25): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Hanseul/Desktop/ECE485_Project/tb1_test.vhd(26): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Hanseul/Desktop/ECE485_Project/tb1_test.vhd(27): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Hanseul/Desktop/ECE485_Project/tb1_test.vhd(28): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Hanseul/Desktop/ECE485_Project/tb1_test.vhd(29): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Hanseul/Desktop/ECE485_Project/tb1_test.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Hanseul/Desktop/ECE485_Project/tb1_test.vhd(31): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Hanseul/Desktop/ECE485_Project/tb1_test.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Hanseul/Desktop/ECE485_Project/tb1_test.vhd(33): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Hanseul/Desktop/ECE485_Project/tb1_test.vhd(34): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Hanseul/Desktop/ECE485_Project/tb1_test.vhd(35): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Hanseul/Desktop/ECE485_Project/tb1_test.vhd(36): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Hanseul/Desktop/ECE485_Project/tb1_test.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/Hanseul/Desktop/ECE485_Project/tb1_test.vhd(38): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}} C:/Users/Hanseul/Desktop/ECE485_Project/instrMem.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Hanseul/Desktop/ECE485_Project/instrMem.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity instrMem
+-- Compiling architecture behavior of instrMem
+
+} {} {}}
